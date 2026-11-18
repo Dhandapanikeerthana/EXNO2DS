@@ -89,5 +89,20 @@ sns.catplot(x='Survived',hue="Gender",data=df,kind='count')
 ```
 <img width="677" height="577" alt="image" src="https://github.com/user-attachments/assets/b57d6b4e-6853-4f5c-a8ca-551024ea0b57" />
 
+```
+df.boxplot(column="Age",by="Survived")
+```
+<img width="643" height="541" alt="image" src="https://github.com/user-attachments/assets/5339a280-ec87-45a1-9122-9afa4a790d06" />
+
+```
+sns.scatterplot(x=df["Age"],y=df["Fare"])
+```
+<img width="650" height="511" alt="image" src="https://github.com/user-attachments/assets/6aec169d-8bbd-49b1-9590-1291197c06b1" />
+
+```
+sns.boxplot(x=df["Survived"],y=df["Fare"])
+```
+<img width="657" height="512" alt="image" src="https://github.com/user-attachments/assets/74a54f77-a8a8-46ea-8730-8c34d261997f" />
+
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
