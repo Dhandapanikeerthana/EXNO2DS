@@ -104,5 +104,14 @@ sns.boxplot(x=df["Survived"],y=df["Fare"])
 ```
 <img width="657" height="512" alt="image" src="https://github.com/user-attachments/assets/74a54f77-a8a8-46ea-8730-8c34d261997f" />
 
+```
+sns.barplot(x=df["Survived"],y=df["Fare"])
+```
+<img width="642" height="508" alt="image" src="https://github.com/user-attachments/assets/6f6d7d49-ab83-4488-b759-24b7adcb8dd1" />
+```
+sns.boxplot(x="Pclass",y="Age",hue="Gender",data=df)
+```
+<img width="722" height="571" alt="image" src="https://github.com/user-attachments/assets/94d8e281-5e5c-4dbf-a0a9-bc923830ae34" />
+
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
