@@ -108,10 +108,16 @@ sns.boxplot(x=df["Survived"],y=df["Fare"])
 sns.barplot(x=df["Survived"],y=df["Fare"])
 ```
 <img width="642" height="508" alt="image" src="https://github.com/user-attachments/assets/6f6d7d49-ab83-4488-b759-24b7adcb8dd1" />
+
 ```
 sns.boxplot(x="Pclass",y="Age",hue="Gender",data=df)
 ```
 <img width="722" height="571" alt="image" src="https://github.com/user-attachments/assets/94d8e281-5e5c-4dbf-a0a9-bc923830ae34" />
+
+```
+sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
+```
+<img width="1315" height="636" alt="image" src="https://github.com/user-attachments/assets/bb9f2b6b-0b28-419b-8920-351b8b8c1e9e" />
 
 # RESULT
         <<INCLUDE YOUR RESULT HERE>>
