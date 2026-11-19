@@ -7,21 +7,29 @@
   The primary aim with exploratory analysis is to examine the data for distribution, outliers and anomalies to direct specific testing of your hypothesis.
   
 # ALGORITHM:
-STEP 1: Import the required packages to perform Data Cleansing,Removing Outliers and Exploratory Data Analysis.
 
-STEP 2: Replace the null value using any one of the method from mode,median and mean based on the dataset available.
+STEP 1: Import the necessary Python libraries, such as Pandas, Matplotlib and Seaborn, to perform data analysis and visualization.
 
-STEP 3: Use boxplot method to analyze the outliers of the given dataset.
+STEP 2: Load the Titanic dataset using read_csv() and examine its structure using info(), describe(), shape and dtypes.
 
-STEP 4: Remove the outliers using Inter Quantile Range method.
+STEP 3: Identify missing values and handle them using suitable statistical methods such as Mean, Median or Mode.
 
-STEP 5: Use Countplot method to analyze in a graphical method for categorical data.
+STEP 4: Analyze categorical data using value_counts(), nunique() and countplot() to understand the frequency and distribution of categories.
 
-STEP 6: Use displot method to represent the univariate distribution of data.
+STEP 5: Detect unusual values in numerical columns using boxplot() and remove outliers using the Interquartile Range (IQR) method.
 
-STEP 7: Use cross tabulation method to quantitatively analyze the relationship between multiple variables.
+STEP 6: Perform univariate analysis using histplot() to understand the distribution and spread of individual numerical variables.
 
-STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
+STEP 7: Perform bivariate analysis using catplot(), scatterplot(), barplot() and boxplot() to identify relationships between two variables.
+
+STEP 8: Perform multivariate analysis using visualizations such as grouped boxplots and categorical plots to compare multiple variables simultaneously.
+
+STEP 9: Use cross-tabulation to examine relationships between categorical variables and heatmap() to visualize the correlation between numerical variables.
+
+STEP 10: Interpret the visualizations and statistical results to identify patterns, trends and relationships within the dataset.
+
+STEP 11: Display and analyze the final results to complete the Exploratory Data Analysis.
+
 
 ## CODING AND OUTPUT
 ```
