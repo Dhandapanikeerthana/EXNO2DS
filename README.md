@@ -1,3 +1,4 @@
+
 # EXNO2DS
 # AIM:
       To perform Exploratory Data Analysis on the given data set.
@@ -119,5 +120,11 @@ sns.catplot(data=df,col="Survived",x="Gender",hue="Pclass",kind="count")
 ```
 <img width="1315" height="636" alt="image" src="https://github.com/user-attachments/assets/bb9f2b6b-0b28-419b-8920-351b8b8c1e9e" />
 
+```
+sns.heatmap(df.corr(numeric_only=True),annot=True)
+```
+
+<img width="888" height="717" alt="image" src="https://github.com/user-attachments/assets/ef5b115c-b932-44ef-9986-e72004f6f79a" />
+
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+    The Program and The Output has been sucessfully Verified along with the Visualization .Successfully performed Exploratory Data Analysis (EDA) by handling missing values, detecting and removing outliers, analyzing  categorical and numerical data, and visualizing relationships using countplot, displot crosstab, and heatmap.
