@@ -159,5 +159,28 @@ sns.heatmap(df.corr(numeric_only=True),annot=True)
 
 <img width="888" height="717" alt="image" src="https://github.com/user-attachments/assets/ef5b115c-b932-44ef-9986-e72004f6f79a" />
 
+
+
 # RESULT
     The Program and The Output has been sucessfully Verified along with the Visualization .Successfully performed Exploratory Data Analysis (EDA) by handling missing values, detecting and removing outliers, analyzing  categorical and numerical data, and visualizing relationships using countplot, displot crosstab, and heatmap.
+
+## SUMMARY
+    Exploratory Data Analysis (EDA) is used to understand the hidden patterns and characteristics of a dataset before applying further analysis. In this experiment, the Titanic dataset is explored using Python libraries such as Pandas, Matplotlib and Seaborn.
+
+- Pandas functions (info(), describe(), shape, dtypes) are used to understand the dataset's structure, identify data types, check the number of records and obtain statistical information.
+
+- value_counts() and nunique() help identify how frequently each category occurs and how many unique values are present in a column.
+
+- Countplot is used to compare categorical values visually, such as the number of passengers who survived and did not survive.
+
+- Boxplot helps identify unusual values (outliers) by displaying the spread of numerical data. The IQR method is used to detect and remove extreme values.
+
+- Histplot represents the distribution of numerical values, helping us understand whether the data is concentrated, spread out or skewed.
+
+- Catplot and Crosstab help compare multiple categories and understand how variables such as gender, passenger class and survival are related.
+
+- Scatterplot is used to identify patterns and relationships between two numerical variables, such as age and fare.
+
+- Barplot compares numerical values across categories, while Heatmap uses colour intensity to represent correlation between numerical variables.
+
+Overall, EDA transforms raw data into meaningful visual and statistical information. Instead of directly making assumptions about the dataset, it helps us discover patterns, identify data quality issues and understand relationships between variables before building a machine learning model.
